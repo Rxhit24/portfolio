@@ -1,0 +1,105 @@
+*{
+    color: white;
+    font-family: "General Sans Medium";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#hero{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 14px;
+}
+#nav-bar a{
+    text-decoration: none;
+    
+}
+
+#heading {
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 5vw;
+    line-height: 1;
+    text-transform: uppercase;
+
+}
+#heading h1{
+    opacity: 0.6;
+}
+#line2{
+    width: fit-content;
+    padding-left: 15vw;
+    
+}
+
+#line2 h5{
+    opacity: 1;
+    text-align: right;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+#downhead{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.5vw;
+    /* position: relative;
+    top: 40px;
+    right: 40px; */
+    padding: 60px 20px;
+    
+}
+#footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#footleft{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 20vw;
+    
+}
+
+#footright{
+    display: flex;
+    align-items: center ;
+    padding-right: 40px;
+}
+#footright i{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px white solid;
+    background-color: #777777aa;
+}
+
+#footleft a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
