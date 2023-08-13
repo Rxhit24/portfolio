@@ -1,6 +1,7 @@
+
 *{
     color: white;
-    font-family: "General Sans Medium";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -11,6 +12,7 @@ html,body{
 }
 #main{
     width: 100%;
+    background-color: black;
 }
 #hero{
     background-color: black;
@@ -33,18 +35,18 @@ html,body{
 #heading {
     margin-top: 40px;
     padding-left: 20px;
-    font-size: 5vw;
+    font-size: 7.5vw;
     line-height: 1;
     text-transform: uppercase;
 
 }
 #heading h1{
     opacity: 0.6;
-}
-#line2{
-    width: fit-content;
-    padding-left: 15vw;
     
+}
+#line2 {
+    width: fit-content;
+    padding-left: 7vw;
 }
 
 #line2 h5{
@@ -52,6 +54,7 @@ html,body{
     text-align: right;
     font-size: 1.5vw;
     text-transform: uppercase;
+    font-weight: 400;
 }
 #downhead{
     text-transform: uppercase;
@@ -60,7 +63,10 @@ html,body{
     /* position: relative;
     top: 40px;
     right: 40px; */
-    padding: 60px 20px;
+    padding: 40px 20px;
+    
+}
+#highlight{
     
 }
 #footer{
@@ -69,8 +75,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     margin: 20px;
-    position: absolute;
-    bottom: 10px;
+    padding-bottom: 100px;
 }
 
 #footleft{
@@ -102,4 +107,76 @@ html,body{
     text-decoration: none;
 }
 
+#element{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#elem{
+
+    width: 94%;
+    margin: 0px 3vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px rgba(255, 255, 255, 0.543) solid;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#elem #lightstar{
+    opacity: 0.3;
+}
+
+.elemlast{
+    border-bottom: 1px rgba(255, 255, 255, 0.374) solid;
+}
+
+#about{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about h2{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.518);
+    border-radius: 8px;
+}
+
+#aboutme{
+    width: 40vw;
+
+    
+}
+#footerlast{
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 40px;
+}
+
+#footerleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#socials{
+    margin: 50px;
+    display: flex;
+    align-items: Center;
+    gap: 20px;
+}
 
